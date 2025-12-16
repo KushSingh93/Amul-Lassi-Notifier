@@ -9,8 +9,7 @@ def check_all():
     for key, product in PRODUCTS.items():
         stock_ok = is_in_stock(product["url"])
         pincode_ok = is_pincode_serviceable(product["url"])
-        //current[key] = stock_ok and pincode_ok
-        current[key] = True # TODO: remove this
+        current[key] = stock_ok and pincode_ok
 
     return current
 
