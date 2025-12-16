@@ -25,6 +25,12 @@ if __name__ == "__main__":
             print("🚨 PRODUCT AVAILABLE 🚨")
             print(product["name"])
             print(product["url"])
-            sys.exit(1)  # <-- THIS triggers GitHub notification
 
+            # ✅ SAVE STATE FIRST
+            save_state(current)
+
+            # ✅ THEN fail to trigger GitHub notification
+            sys.exit(1)
+
+    # Normal path (no notification)
     save_state(current)
