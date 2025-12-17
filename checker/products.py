@@ -12,5 +12,4 @@ PRODUCTS = {
     "milkshakke"
         "name": "Amul High Protein Milkshakes (Pack of 30)",
         "url": "https://shop.amul.com/en/product/amul-kool-protein-milkshake-or-vanilla-180-ml-or-pack-of-30"
-    }
 }
