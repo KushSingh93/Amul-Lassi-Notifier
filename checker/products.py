@@ -12,5 +12,9 @@ PRODUCTS = {
     "milkshake": {
         "name": "Amul Kool Protein Milkshake (Pack of 30)",
         "url": "https://shop.amul.com/en/product/amul-kool-protein-milkshake-or-vanilla-180-ml-or-pack-of-30"
+    },
+    "chocolate": {
+        "name": "Amul Kool Protein Chocolate Milkshake (Pack of 30)",
+        "url": "https://shop.amul.com/en/product/amul-kool-protein-milkshake-or-chocolate-180-ml-or-pack-of-30"
     }
 }
